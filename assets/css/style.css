@@ -381,10 +381,9 @@ p {
   background-color: #325DFF;
   padding: 5vw 1rem;
   text-align: center;
-  color: #fff;
 }
 
 .footer_di-buffala small {
-  color: hsla(0, 100%, 100%, 0.52);
+  color: #fff;
   font-size: 1em;
 }
