@@ -376,10 +376,12 @@ p {
 
 /* Footer */
 
+
 .footer_di-buffala {
-  background-color: #141414;
+  background-color: #325DFF;
   padding: 5vw 1rem;
   text-align: center;
+  color: #fff;
 }
 
 .footer_di-buffala small {
