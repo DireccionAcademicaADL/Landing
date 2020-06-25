@@ -45,7 +45,7 @@ p {
 /* Button */
 
 .button_di-buffala {
-  background-color: #325DFF;
+  background-color: #b0ff32;
   border-radius: 30px;
   padding: 2rem 6rem;
   color: #fff;
@@ -383,6 +383,6 @@ p {
 }
 
 .footer_di-buffala small {
-  color: hsla(0, 100%, 100%, 0.52);
+  color: #ffff;
   font-size: 1em;
 }
