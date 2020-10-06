@@ -45,27 +45,27 @@ p {
 /* Button */
 
 .button_di-buffala {
-  background-color: #325DFF;
+  background-color: #42FFB7;
   border-radius: 30px;
   padding: 2rem 6rem;
-  color: #fff;
+  color:black;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .button_di-buffala:hover {
   background-color: hsla(227, 100%, 60%, .1);
-  color: #325DFF;
+  color: #42FFB7;
 }
 
 /* Navbar */
 
 .navbar_di-buffala {
-  background-color: #325DFF;
+  background-color: #42FFB7;
   color: hsla(0, 100%, 100%, 0.52);
 }
 .icon-bar {
-  background-color: #fff;
+  background-color: black;
 }
 
 .navbar-brand img {
@@ -73,7 +73,7 @@ p {
 }
 
 .navbar-nav > li > a{
-  color: #fff;
+  color: black;
   text-shadow: none;
   text-transform: uppercase;
 }
@@ -197,7 +197,7 @@ p {
 }
 
 .features__inner-icon {
-  background-color: #325DFF;
+  background-color: #42FFB7;
   border-radius: 50%;
   width: 100px;
   height: 100px;
@@ -386,4 +386,8 @@ p {
 .footer_di-buffala small {
   color: #fff;
   font-size: 1em;
+}
+.logo1{
+  background-color: black;
+  fill:white;
 }
