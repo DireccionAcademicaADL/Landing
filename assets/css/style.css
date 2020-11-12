@@ -45,24 +45,24 @@ p {
 /* Button */
 
 .button_di-buffala {
-  background-color: #325DFF;
+  background-color: #000000;
   border-radius: 30px;
   padding: 2rem 6rem;
-  color: #fff;
+  color:yellow;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .button_di-buffala:hover {
-  background-color: hsla(227, 100%, 60%, .1);
-  color: #325DFF;
+  background-color: yellow;
+  color: #000000;
 }
 
 /* Navbar */
 
 .navbar_di-buffala {
-  background-color: #325DFF;
-  color: hsla(0, 100%, 100%, 0.52);
+  background-color: #000000;
+  color: yellow;
 }
 .icon-bar {
   background-color: #fff;
@@ -73,7 +73,7 @@ p {
 }
 
 .navbar-nav > li > a{
-  color: #fff;
+  color:yellow;
   text-shadow: none;
   text-transform: uppercase;
 }
@@ -197,7 +197,7 @@ p {
 }
 
 .features__inner-icon {
-  background-color: #325DFF;
+  background-color: #000000;
   border-radius: 50%;
   width: 100px;
   height: 100px;
@@ -206,7 +206,7 @@ p {
 }
 
 .svg-inline--fa  {
-  color: #fff;
+  color: yellow;
   font-size: 40px;
   position: absolute;
   top: 30px;
@@ -378,12 +378,12 @@ p {
 
 
 .footer_di-buffala {
-  background-color: #325DFF;
+  background-color: #000000;
   padding: 5vw 1rem;
   text-align: center;
 }
 
 .footer_di-buffala small {
-  color: #fff;
+  color: yellow;
   font-size: 1em;
 }
