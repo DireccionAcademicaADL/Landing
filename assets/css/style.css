@@ -53,6 +53,7 @@ p {
   text-decoration: none;
 }
 
+
 .button_di-buffala:hover {
   background-color: hsla(227, 100%, 60%, .1);
   color: #325DFF;
@@ -63,13 +64,23 @@ p {
 .navbar_di-buffala {
   background-color: #325DFF;
   color: hsla(0, 100%, 100%, 0.52);
+  padding: 1rem 4rem;
+  border-radius: 0;
+  
 }
+
 .icon-bar {
   background-color: #fff;
 }
 
 .navbar-brand img {
   max-width: 120px;
+  
+  
+}
+
+.navbar-brand {
+  padding-top: 1rem;
 }
 
 .navbar-nav > li > a{
