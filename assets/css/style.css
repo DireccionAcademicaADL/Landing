@@ -2,10 +2,12 @@
 
 h1, h2, h3 {
   font-family: 'Lato', sans-serif;
+  color: darkmagenta;
 }
 
 p, li, a, small {
   font-family: 'Poppins', sans-serif;
+  color: aqua;
 }
 
 /* Font hierarchy */
