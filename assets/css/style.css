@@ -1,4 +1,8 @@
 /* Global Styles */
+/*Agregue esta propiedad css para que el scroll sea mucho mas suave al momento de hacer click en una sección */
+html {
+  scroll-behavior: smooth;
+}
 
 h1, h2, h3 {
   font-family: 'Lato', sans-serif;
@@ -17,6 +21,13 @@ h1 {
 h2 {
  font-size: 2.25em;
 }
+
+/* Agregué un text shadow para remarcar un poco el h2 de esta sección */
+.video__inner h2 {
+  font-size: 2.25em;
+  text-shadow: 1px 1px 2px #000000;
+}
+
 
 h3 {
   font-size: 1.75em;
@@ -53,9 +64,10 @@ p {
   text-decoration: none;
 }
 
+/* Cambie el color del hover y el color de la fuente, al momento de pasar por el mouse */
 .button_di-buffala:hover {
-  background-color: hsla(227, 100%, 60%, .1);
-  color: #325DFF;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 /* Navbar */
@@ -77,9 +89,11 @@ p {
   text-shadow: none;
   text-transform: uppercase;
 }
+
+/* cambie el color del hover y el color de la fuente en las etiquetas li del nav */
 .nav > li > a:hover {
-  background-color: initial;
-  color: hsla(0, 0%, 100%, .5);
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .navbar {
