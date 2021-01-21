@@ -94,8 +94,20 @@ p {
   background-size: cover;
   text-align: center;
   height: 700px;
-  padding-top: 150px;
+  /* padding-top: 150px; */
   background-position: right bottom;
+}
+
+.header_di-buffala .overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+
+  /* Overlay */
+  background-color: rgba(50, 93, 255, 0.12);
 }
 
 .header_di-buffala h1 {
@@ -106,14 +118,14 @@ p {
 .header_di-buffala p {
   color: hsla(0, 0%, 100%, .8);
   line-height: 22px;
-  padding: 1rem 30vw;
+  padding: 1rem 30vw;z
 }
 
 @media only screen and (max-width : 767px) {
 
   .header_di-buffala {
     height: 500px;
-    padding-top: 100px;
+    /* padding-top: 100px; */
     background-position: center;
   }
 
