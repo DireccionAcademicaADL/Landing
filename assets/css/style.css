@@ -92,9 +92,10 @@ p {
   background-image: url("../img/bg-header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   text-align: center;
   height: 700px;
-  padding-top: 150px;
+  padding-top: 220px;
   background-position: right bottom;
 }
 
@@ -113,7 +114,7 @@ p {
 
   .header_di-buffala {
     height: 500px;
-    padding-top: 100px;
+    padding-top: 135px;
     background-position: center;
   }
 
@@ -245,7 +246,6 @@ p {
 .video {
   position: relative;
   text-align: center;
-  padding-left: 40px;
 }
 
 .video__inner {
@@ -265,13 +265,9 @@ p {
 
 @media only screen and (max-width : 767px) {
 
-  .video {
-    padding-left: 0;
-  }
-
   .video__inner {
     height: 50px;
-    top: 8%;
+    top: 60%;
   }
 
   .video__inner h2 {
