@@ -387,3 +387,10 @@ p {
   color: #fff;
   font-size: 1em;
 }
+
+.footer-logo img{
+  display: block;
+  margin: auto;
+  width: 30px;
+  
+}
