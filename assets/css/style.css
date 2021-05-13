@@ -387,3 +387,7 @@ p {
   color: #fff;
   font-size: 1em;
 }
+/*SmoothScroll*/
+html {
+  scroll-behavior: smooth;
+}
