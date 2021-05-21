@@ -45,7 +45,7 @@ p {
 /* Button */
 
 .button_di-buffala {
-  background-color: #325DFF;
+  background-color: #050b22;
   border-radius: 30px;
   padding: 2rem 6rem;
   color: #fff;
@@ -54,8 +54,8 @@ p {
 }
 
 .button_di-buffala:hover {
-  background-color: hsla(227, 100%, 60%, .1);
-  color: #325DFF;
+  background-color: rgba(5, 7, 15, 0.1);
+  color: #090f24;
 }
 
 /* Navbar */
