@@ -387,3 +387,63 @@ p {
   color: #fff;
   font-size: 1em;
 }
+
+/* GitHub */
+
+.margen-github
+{
+  margin-block: 30px;
+}
+
+.titulo-github
+{
+  font-family: 'Space Mono', monospace;
+  font-size: 5rem;
+  text-align: center;
+  font-weight: 300;
+}
+
+.imagen-github
+{
+  max-width: 45%;
+  padding: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+.button-github
+{
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  background-color: #676264;
+  padding: 20px 80px;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0 6px #2E282A;
+}
+
+.button-github a
+{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+.button-github:hover
+{
+  box-shadow: 0 4px #2E282A;
+  top: 2px; 
+}
+
+.button-github:active
+{
+  box-shadow: none;
+  top: 6px; 
+}
