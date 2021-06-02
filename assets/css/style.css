@@ -68,6 +68,11 @@ p {
   background-color: #fff;
 }
 
+.navbar-brand{
+  display: flex;
+  align-items: center;
+}
+
 .navbar-brand img {
   max-width: 120px;
 }
