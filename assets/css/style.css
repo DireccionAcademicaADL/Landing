@@ -4,6 +4,10 @@ h1, h2, h3 {
   font-family: 'Lato', sans-serif;
 }
 
+h1, h2 {
+  text-transform: uppercase;
+}
+
 p, li, a, small {
   font-family: 'Poppins', sans-serif;
 }
@@ -45,7 +49,7 @@ p {
 /* Button */
 
 .button_di-buffala {
-  background-color: #325DFF;
+  background-color: #e77a13;
   border-radius: 30px;
   padding: 2rem 6rem;
   color: #fff;
@@ -55,13 +59,13 @@ p {
 
 .button_di-buffala:hover {
   background-color: hsla(227, 100%, 60%, .1);
-  color: #325DFF;
+  color: #e77a13;
 }
 
 /* Navbar */
 
 .navbar_di-buffala {
-  background-color: #325DFF;
+  background-color: #e77a13;
   color: hsla(0, 100%, 100%, 0.52);
 }
 .icon-bar {
@@ -197,7 +201,7 @@ p {
 }
 
 .features__inner-icon {
-  background-color: #325DFF;
+  background-color: #e77a13;
   border-radius: 50%;
   width: 100px;
   height: 100px;
@@ -378,7 +382,7 @@ p {
 
 
 .footer_di-buffala {
-  background-color: #325DFF;
+  background-color: #e77a13;
   padding: 5vw 1rem;
   text-align: center;
 }
@@ -387,3 +391,5 @@ p {
   color: #fff;
   font-size: 1em;
 }
+
+
