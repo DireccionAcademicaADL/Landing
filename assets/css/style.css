@@ -84,6 +84,8 @@ p {
 
 .navbar {
   margin-bottom: 0;
+  position: fixed;
+  width: 100%;
 }
 
 /* Header */
@@ -387,3 +389,7 @@ p {
   color: #fff;
   font-size: 1em;
 }
+
+/* CAMBIO DE ALBERTO */
+
+/* cambios desde develop */
