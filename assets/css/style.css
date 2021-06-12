@@ -76,6 +76,7 @@ p {
   color: #fff;
   text-shadow: none;
   text-transform: uppercase;
+  text-align: right;
 }
 .nav > li > a:hover {
   background-color: initial;
