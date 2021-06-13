@@ -1,3 +1,7 @@
+:root {
+  --green: rgb(38, 141, 38);
+}
+
 /* Global Styles */
 
 h1, h2, h3 {
@@ -61,7 +65,7 @@ p {
 /* Navbar */
 
 .navbar_di-buffala {
-  background-color: #325DFF;
+  background-color: var(--green);
   color: hsla(0, 100%, 100%, 0.52);
 }
 .icon-bar {
