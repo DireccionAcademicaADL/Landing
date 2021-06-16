@@ -51,6 +51,7 @@ p {
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
+  transition: 300ms ease-in-out; /* smooth hover */
 }
 
 .button_di-buffala:hover {
