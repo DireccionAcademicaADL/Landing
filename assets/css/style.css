@@ -63,7 +63,11 @@ p {
 .navbar_di-buffala {
   background-color: #325DFF;
   color: hsla(0, 100%, 100%, 0.52);
+  position: fixed;
+  width: 100%;
+  z-index: 0;
 }
+
 .icon-bar {
   background-color: #fff;
 }
@@ -96,6 +100,7 @@ p {
   height: 700px;
   padding-top: 150px;
   background-position: right bottom;
+  z-index: -1;
 }
 
 .header_di-buffala h1 {
@@ -135,6 +140,7 @@ p {
   background-size: cover;
   background-position: center;
   height: 500px;
+  z-index: -1;
 }
 
 .blog__inner {
@@ -203,6 +209,7 @@ p {
   height: 100px;
   margin: auto;
   position: relative;
+  z-index: -1;
 }
 
 .svg-inline--fa  {
@@ -246,6 +253,7 @@ p {
   position: relative;
   text-align: center;
   padding-left: 40px;
+  z-index: -1;
 }
 
 .video__inner {
@@ -311,6 +319,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 10vh 5vw 0 5vw;
+  z-index: -1;
 }
 
 .portfolio__inner h3 {
