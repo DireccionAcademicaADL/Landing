@@ -59,6 +59,12 @@ p {
 }
 
 /* Navbar */
+.navbar-fixed {
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+}
 
 .navbar_di-buffala {
   background-color: #325DFF;
