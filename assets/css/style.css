@@ -129,12 +129,24 @@ p {
 
 /* Blog */
 
+.blog__hidden_container {
+  overflow: hidden;
+  height: 500px;
+  padding: 0!important;
+}
+
 .blog__inner_background {
   background-image: url("../img/img-blog.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 500px;
+  transition: transform ease 400ms;
+  height: 100%;
+  width: 100%;
+}
+
+.blog__inner_background:hover {
+  transform: scale(1.15);
 }
 
 .blog__inner {
