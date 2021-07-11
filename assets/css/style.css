@@ -59,7 +59,10 @@ p {
 }
 
 /* Navbar */
-
+.navbar-nav > li > a:hover {
+  background-color: #57a01b!important;
+  color: #ffffff!important;
+}
 .navbar_di-buffala {
   background-color: #267d2f;
   color: hsla(0, 100%, 100%, 0.52);
