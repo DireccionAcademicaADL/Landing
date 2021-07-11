@@ -61,7 +61,7 @@ p {
 /* Navbar */
 
 .navbar_di-buffala {
-  background-color: #325DFF;
+  background-color: #18D11C;
   color: hsla(0, 100%, 100%, 0.52);
 }
 .icon-bar {
@@ -73,7 +73,7 @@ p {
 }
 
 .navbar-nav > li > a{
-  color: #fff;
+  color: #00000;
   text-shadow: none;
   text-transform: uppercase;
 }
