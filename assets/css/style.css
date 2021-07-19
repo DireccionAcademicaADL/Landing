@@ -45,6 +45,7 @@ p {
 /* Button */
 
 .button_di-buffala {
+  transition: 300ms;
   background-color: #325DFF;
   border-radius: 30px;
   padding: 2rem 6rem;
@@ -54,8 +55,10 @@ p {
 }
 
 .button_di-buffala:hover {
-  background-color: hsla(227, 100%, 60%, .1);
-  color: #325DFF;
+  transition: 300ms;
+  background-color: hsla(227, 100%, 60%, 0.8);
+  box-shadow: 0px 0px 25px rgb(255, 255, 255, 0.5);
+  color: white;
 }
 
 /* Navbar */
@@ -63,6 +66,9 @@ p {
 .navbar_di-buffala {
   background-color: #325DFF;
   color: hsla(0, 100%, 100%, 0.52);
+  border-radius: 0%;
+  position: fixed;
+  width: 100%;
 }
 .icon-bar {
   background-color: #fff;
@@ -78,8 +84,15 @@ p {
   text-transform: uppercase;
 }
 .nav > li > a:hover {
-  background-color: initial;
-  color: hsla(0, 0%, 100%, .5);
+  transition: 250ms;
+  background-color: rgb(24, 24, 99);
+  color: white;
+}
+
+.nav > li > a:focus {
+  transition: 300ms;
+  background-color: rgb(24, 24, 99);
+  color: white;
 }
 
 .navbar {
