@@ -55,13 +55,13 @@ p {
 
 .button_di-buffala:hover {
   background-color: hsla(227, 100%, 60%, .1);
-  color: #325DFF;
+  color: #34478d;
 }
 
 /* Navbar */
 
 .navbar_di-buffala {
-  background-color: #325DFF;
+  background-color: #5377f8;
   color: hsla(0, 100%, 100%, 0.52);
 }
 .icon-bar {
@@ -73,7 +73,7 @@ p {
 }
 
 .navbar-nav > li > a{
-  color: #fff;
+  color: rgb(218, 217, 217);
   text-shadow: none;
   text-transform: uppercase;
 }
