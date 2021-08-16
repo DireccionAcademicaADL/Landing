@@ -376,7 +376,6 @@ p {
 
 /* Footer */
 
-
 .footer_di-buffala {
   background-color: #325DFF;
   padding: 5vw 1rem;
@@ -386,4 +385,9 @@ p {
 .footer_di-buffala small {
   color: #fff;
   font-size: 1em;
+}
+
+footer a {
+  color: white !important;
+  font-size: 25px;
 }
