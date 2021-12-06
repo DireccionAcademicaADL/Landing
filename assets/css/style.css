@@ -56,6 +56,7 @@ p {
 .button_di-buffala:hover {
   background-color: hsla(227, 100%, 60%, .1);
   color: #325DFF;
+  border: 1px solid #fff;
 }
 
 /* Navbar */
@@ -101,6 +102,10 @@ p {
 .header_di-buffala h1 {
   color: #fff;
   font-size: 5em;
+}
+
+.header_di-buffala h1:hover {
+  text-shadow: 1px 1px 5px #fff;
 }
 
 .header_di-buffala p {
