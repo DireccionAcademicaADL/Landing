@@ -1,3 +1,9 @@
+/* HTML */
+
+html{
+  scroll-behavior: auto !important;
+}
+
 /* Global Styles */
 
 h1, h2, h3 {
@@ -376,7 +382,6 @@ p {
 
 /* Footer */
 
-
 .footer_di-buffala {
   background-color: #325DFF;
   padding: 5vw 1rem;
@@ -386,4 +391,18 @@ p {
 .footer_di-buffala small {
   color: #fff;
   font-size: 1em;
+}
+
+/* Contacto */
+
+
+#Contacto form label{
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+      font-weight: 400;
+  }
 }
