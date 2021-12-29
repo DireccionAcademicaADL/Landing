@@ -247,40 +247,6 @@ p {
   padding-left: 40px;
 }
 
-.video__inner {
-  position: absolute;
-  top: 60%;
-  color: #fff;
-}
-
-.video__inner h2 {
-  font-size: 3em;
-}
-
-.video__inner p {
-  padding: 0 20vw;
-  color: #fff;
-}
-
-@media only screen and (max-width: 767px) {
-  .video {
-    padding-left: 0;
-  }
-
-  .video__inner {
-    height: 50px;
-    top: 8%;
-  }
-
-  .video__inner h2 {
-    font-size: 2em;
-  }
-
-  .video__inner p {
-    visibility: hidden;
-  }
-}
-
 /* Portfolio */
 
 .portfolio {
