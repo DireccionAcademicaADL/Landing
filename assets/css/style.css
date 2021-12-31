@@ -8,10 +8,18 @@ p, li, a, small {
   font-family: 'Poppins', sans-serif;
 }
 
+.fondo {
+  background-color: black;
+  padding: 10px 0px 50px;
+  opacity: 75%;
+}
+
+
 /* Font hierarchy */
 
 h1 {
  font-size: 3em;
+ opacity: 100%;
 }
 
 h2 {
@@ -25,6 +33,7 @@ h3 {
 p {
   color: hsla(0, 0%, 0%, 0.8);
 }
+
 
 @media only screen and (max-width : 767px) {
 
