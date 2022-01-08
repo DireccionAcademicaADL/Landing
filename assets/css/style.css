@@ -376,9 +376,10 @@ p {
 
 /* Footer */
 
-
+/*Se cambia el color de fondo del Footer del sitio, por requerimiento*/
 .footer_di-buffala {
-  background-color: #325DFF;
+  /*background-color: #325DFF;*/
+  background-color: #71FF33;
   padding: 5vw 1rem;
   text-align: center;
 }
