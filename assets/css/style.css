@@ -387,3 +387,9 @@ p {
   color: #fff;
   font-size: 1em;
 }
+
+.fab-link a {
+  padding: 2%;  
+  color:#fff;
+  font-size:4rem;
+}
