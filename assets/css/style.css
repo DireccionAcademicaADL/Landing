@@ -205,7 +205,6 @@ p {
 .video {
 	position: relative;
 	text-align: center;
-	padding-left: 40px;
 }
 
 .video__inner {
@@ -216,11 +215,7 @@ p {
 
 .video__inner h2 {
 	font-size: 3em;
-}
-
-.video__inner p {
-	padding: 0 20vw;
-	color: #fff;
+	color: #585858;
 }
 
 @media only screen and (max-width: 767px) {
@@ -235,10 +230,6 @@ p {
 
 	.video__inner h2 {
 		font-size: 2em;
-	}
-
-	.video__inner p {
-		visibility: hidden;
 	}
 }
 
