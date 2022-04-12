@@ -251,7 +251,7 @@ p {
 .video__inner {
   position: absolute;
   top: 60%;
-  color: #fff;
+  color: #20170f;
 }
 
 .video__inner h2 {
@@ -260,7 +260,7 @@ p {
 
 .video__inner p {
   padding: 0 20vw;
-  color: #fff;
+  color: #20170f;
 }
 
 @media only screen and (max-width : 767px) {
