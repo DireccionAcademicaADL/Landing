@@ -1,6 +1,6 @@
 # Desafío: Fork y Pull request
 
-### Módulo 1
+### Módulo 2
 ### Fundamentos del Desarrollo de Páginas Web
 
 ## Unidad: 4 - Desafío Opcional 2
