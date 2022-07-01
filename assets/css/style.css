@@ -60,12 +60,17 @@ p {
 
 /* Navbar */
 
+.navbar {
+  font-weight: 500;
+  transition: all 1s ease-out;  
+}
+
 .navbar_di-buffala {
   background-color: #325DFF;
   color: hsla(0, 100%, 100%, 0.52);
 }
 .icon-bar {
-  background-color: #fff;
+  background-color: rgb(143, 6, 6);
 }
 
 .navbar-brand img {
