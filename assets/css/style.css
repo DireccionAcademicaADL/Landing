@@ -173,6 +173,10 @@ p {
   padding: 4rem 10vw 10rem 10vw;
 }
 
+.features h1 {
+  color: #325DFF;
+}
+
 .features h2 {
   font-size: 3em;
 }
@@ -218,6 +222,8 @@ p {
   .features {
     padding-bottom: 4rem;
   }
+
+  fe
 
   .features h2 {
     font-size: 2em;
