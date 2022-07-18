@@ -1,11 +1,7 @@
 /* Global Styles */
 
-h1, h2, h3 {
-  font-family: 'Lato', sans-serif;
-}
-
-p, li, a, small {
-  font-family: 'Poppins', sans-serif;
+h1, h2, h3, p, li, a, small {
+  font-family: 'raleway', sans-serif;
 }
 
 /* Font hierarchy */
@@ -45,7 +41,7 @@ p {
 /* Button */
 
 .button_di-buffala {
-  background-color: #325DFF;
+  background-color: #00687c;
   border-radius: 30px;
   padding: 2rem 6rem;
   color: #fff;
@@ -55,13 +51,13 @@ p {
 
 .button_di-buffala:hover {
   background-color: hsla(227, 100%, 60%, .1);
-  color: #325DFF;
+  color: #00687c;
 }
 
 /* Navbar */
 
 .navbar_di-buffala {
-  background-color: #325DFF;
+  background-color: #00687c;
   color: hsla(0, 100%, 100%, 0.52);
 }
 .icon-bar {
@@ -197,7 +193,7 @@ p {
 }
 
 .features__inner-icon {
-  background-color: #325DFF;
+  background-color: #00687c;
   border-radius: 50%;
   width: 100px;
   height: 100px;
@@ -378,7 +374,7 @@ p {
 
 
 .footer_di-buffala {
-  background-color: #325DFF;
+  background-color: #00687c;
   padding: 5vw 1rem;
   text-align: center;
 }
