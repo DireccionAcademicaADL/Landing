@@ -387,3 +387,14 @@ p {
   color: #fff;
   font-size: 1em;
 }
+
+/*contacto*/
+
+.mt-4 {
+    font-size: 50px;
+    text-align: center;
+}
+#contacto {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
