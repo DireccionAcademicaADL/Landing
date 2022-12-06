@@ -321,6 +321,9 @@ p {
   padding: 1rem 8vw 1rem 0;
 }
 
+.portfolio__inner__image-first {
+  background-image: url("../img/portfolio-4.jpg");
+}
 .portfolio__inner__image-top {
   background-image: url("../img/portfolio-1.jpg");
 }
