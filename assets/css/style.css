@@ -29,11 +29,11 @@ p {
 @media only screen and (max-width : 767px) {
 
   h1 {
-   font-size: 2em;
+   font-size: 2.5em;
   }
 
   h2 {
-   font-size: 1.625em;
+   font-size: 1.5em;
   }
 
   h3 {
@@ -58,10 +58,10 @@ p {
   color: #325DFF;
 }
 
-/* Navbar */
+/* Navbar  */
 
 .navbar_di-buffala {
-  background-color: #325DFF;
+  background-color: black;
   color: hsla(0, 100%, 100%, 0.52);
 }
 .icon-bar {
