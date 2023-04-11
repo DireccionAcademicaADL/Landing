@@ -18,4 +18,5 @@ Los alumnos-al ver el proyecto, consideran que hay varios cambios que podrían m
 6. Crear un pull request describiendo los cambios implementados. (2 Puntos) 
 
 
-El docente analizará los pull requests y decidirá qué cambios implementar.
+El docente analizará los pull requests y decidirá qué cambios implementar. 
+Esta es una modificacion
