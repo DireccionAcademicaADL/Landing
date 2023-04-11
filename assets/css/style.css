@@ -379,7 +379,8 @@ p {
 
 .footer_di-buffala {
   background-color: #325DFF;
-  padding: 5vw 1rem;
+  /* cambio: footer mas angosto */
+  padding: 2vw 1rem;
   text-align: center;
 }
 
