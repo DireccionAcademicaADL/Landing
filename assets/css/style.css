@@ -1,11 +1,12 @@
 /* Global Styles */
 
 h1, h2, h3 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
 }
 
 p, li, a, small {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 /* Font hierarchy */
@@ -45,7 +46,7 @@ p {
 /* Button */
 
 .button_di-buffala {
-  background-color: #325DFF;
+  background-color: #29000e;
   border-radius: 30px;
   padding: 2rem 6rem;
   color: #fff;
@@ -55,13 +56,13 @@ p {
 
 .button_di-buffala:hover {
   background-color: hsla(227, 100%, 60%, .1);
-  color: #325DFF;
+  color: #29000e;
 }
 
 /* Navbar */
 
 .navbar_di-buffala {
-  background-color: #325DFF;
+  background-color: #29000e;
   color: hsla(0, 100%, 100%, 0.52);
 }
 .icon-bar {
@@ -171,6 +172,7 @@ p {
 .features {
   text-align: center;
   padding: 4rem 10vw 10rem 10vw;
+  background-color: blanchedalmond;
 }
 
 .features h2 {
@@ -182,10 +184,12 @@ p {
 }
 
 .features__inner{
-  border: 1px solid hsla(0, 0%, 0%, .1);
-  border-radius: 3px;
+  border: 4px solid hsla(0, 0%, 55%, 0.1);
+  border-radius: 10px;
   padding: 5rem 0rem;
   margin: 3rem 1rem;
+  background-color: #fff;
+  box-shadow: 10px;
 }
 
 .features__inner h3 {
@@ -197,7 +201,7 @@ p {
 }
 
 .features__inner-icon {
-  background-color: #325DFF;
+  background-color: #29000e;
   border-radius: 50%;
   width: 100px;
   height: 100px;
@@ -378,7 +382,7 @@ p {
 
 
 .footer_di-buffala {
-  background-color: #325DFF;
+  background-color: #29000e;
   padding: 5vw 1rem;
   text-align: center;
 }
