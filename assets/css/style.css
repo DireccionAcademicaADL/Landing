@@ -89,7 +89,7 @@ p {
 /* Header */
 
 .header_di-buffala {
-  background-image: url("../img/bg-header.jpg");
+  background-image: url("https://i.gifer.com/MdvR.gif");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -130,7 +130,7 @@ p {
 /* Blog */
 
 .blog__inner_background {
-  background-image: url("../img/img-blog.jpg");
+  background-image: url("https://media.tenor.com/Q5xdMAdZuw4AAAAd/rick-roll.gif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -322,15 +322,15 @@ p {
 }
 
 .portfolio__inner__image-top {
-  background-image: url("../img/portfolio-1.jpg");
+  background-image: url("https://camo.githubusercontent.com/95baa45858b05db0a876a21c6785ab1967dac2b62c1f5d4b5367937073d251fa/68747470733a2f2f692e696d6775722e636f6d2f3531636354536f2e676966");
 }
 
 .portfolio__inner__image-middle {
-  background-image: url("../img/portfolio-2.jpg");
+  background-image: url("https://camo.githubusercontent.com/cab6fe7bb1021d845cb67eae7c618dd09ca6ec53f028a5349cf3ceae47d6f889/687474703a2f2f692e696d6775722e636f6d2f6c6e636270426d2e676966");
 }
 
 .portfolio__inner__image-bottom {
-  background-image: url("../img/portfolio-3.jpg");
+  background-image: url("https://1.bp.blogspot.com/-WuOcrksAEuE/WyFnD63-nlI/AAAAAAAABm0/iXeNp_2uGvwb-K7xlwlMbGQuBJqv4SX7gCEwYBhgL/s1600/gifs-on-cli.gif");
 }
 
 @media only screen and (max-width : 767px) {
