@@ -1,11 +1,18 @@
 /* Global Styles */
 
+:root{
+  --color-principal: #325DFF;
+  --color-secundario: #fff;
+  --font-principal:'Lato', sans-serif;
+  --font-secundaria:'Poppins', sans-serif;
+}
+
 h1, h2, h3 {
-  font-family: 'Lato', sans-serif;
+  font-family: var(--font-principal);
 }
 
 p, li, a, small {
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-secundaria);
 }
 
 /* Font hierarchy */
@@ -45,27 +52,27 @@ p {
 /* Button */
 
 .button_di-buffala {
-  background-color: #325DFF;
+  background-color: var(--color-principal);
   border-radius: 30px;
   padding: 2rem 6rem;
-  color: #fff;
+  color: var(--color-secundario);
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .button_di-buffala:hover {
   background-color: hsla(227, 100%, 60%, .1);
-  color: #325DFF;
+  color: var(--color-principal);
 }
 
 /* Navbar */
 
 .navbar_di-buffala {
-  background-color: #325DFF;
+  background-color: var(--color-principal);
   color: hsla(0, 100%, 100%, 0.52);
 }
 .icon-bar {
-  background-color: #fff;
+  background-color: var(--color-secundario);
 }
 
 .navbar-brand img {
@@ -73,7 +80,7 @@ p {
 }
 
 .navbar-nav > li > a{
-  color: #fff;
+  color: var(--color-secundario);
   text-shadow: none;
   text-transform: uppercase;
 }
@@ -99,7 +106,7 @@ p {
 }
 
 .header_di-buffala h1 {
-  color: #fff;
+  color: var(--color-secundario);
   font-size: 5em;
 }
 
@@ -197,7 +204,7 @@ p {
 }
 
 .features__inner-icon {
-  background-color: #325DFF;
+  background-color: var(--color-principal);
   border-radius: 50%;
   width: 100px;
   height: 100px;
@@ -206,7 +213,7 @@ p {
 }
 
 .svg-inline--fa  {
-  color: #fff;
+  color: var(--color-secundario);
   font-size: 40px;
   position: absolute;
   top: 30px;
@@ -251,7 +258,7 @@ p {
 .video__inner {
   position: absolute;
   top: 60%;
-  color: #fff;
+  color: var(--color-secundario);
 }
 
 .video__inner h2 {
@@ -260,7 +267,7 @@ p {
 
 .video__inner p {
   padding: 0 20vw;
-  color: #fff;
+  color: var(--color-secundario);
 }
 
 @media only screen and (max-width : 767px) {
@@ -378,12 +385,12 @@ p {
 
 
 .footer_di-buffala {
-  background-color: #325DFF;
+  background-color: var(--color-principal);
   padding: 5vw 1rem;
   text-align: center;
 }
 
 .footer_di-buffala small {
-  color: #fff;
+  color: var(--color-secundario);
   font-size: 1em;
 }
