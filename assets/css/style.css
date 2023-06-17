@@ -109,6 +109,10 @@ p {
   padding: 1rem 30vw;
 }
 
+.red{
+  color: red;
+}
+
 @media only screen and (max-width : 767px) {
 
   .header_di-buffala {
@@ -124,6 +128,7 @@ p {
   .header_di-buffala p {
     padding: 1rem 4rem;
   }
+
 
 }
 
