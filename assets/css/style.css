@@ -53,16 +53,25 @@ p {
   text-decoration: none;
 }
 
-.button_di-buffala:hover {
-  background-color: hsla(227, 100%, 60%, .1);
-  color: #325DFF;
+.more:hover{
+  background-color: rgba(0, 0, 0, .1);
+  color: #fff;
 }
+
+.button_di-buffala:hover {
+  background-color: #fff;
+  color: #325DFF;
+  font-weight: bold;
+  font-size: 15px;
+  border: 1px solid #325DFF;
+}
+
 
 /* Navbar */
 
 .navbar_di-buffala {
   background-color: #325DFF;
-  color: hsla(0, 100%, 100%, 0.52);
+  color: #fff;
 }
 .icon-bar {
   background-color: #fff;
