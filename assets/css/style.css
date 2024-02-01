@@ -45,17 +45,17 @@ p {
 /* Button */
 
 .button_di-buffala {
-  background-color: #325DFF;
+  background-color: #741599;
   border-radius: 30px;
   padding: 2rem 6rem;
-  color: #fff;
+  color: beige;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .button_di-buffala:hover {
   background-color: hsla(227, 100%, 60%, .1);
-  color: #325DFF;
+  color:  #741599;
 }
 
 /* Navbar */
