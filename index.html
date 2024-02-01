@@ -1,182 +1,361 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Di Buffala | Diseño de interiores</title>
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-  <!-- Google Fonts | lato & poppins fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Lato|Poppins" rel="stylesheet">
-  <!-- Main Styles -->
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-
-  <!-- Navbar -->
-  <nav class="navbar navbar_di-buffala">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Di Buffala | Diseño de interiores</title>
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts | lato & poppins fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato|Poppins"
+      rel="stylesheet"
+    />
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar_di-buffala" data-bs-theme="dark">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
         <a class="navbar-brand" href="#">
-          <img src="assets/img/logo.png" alt="Logo Di Buffala">
+          <img src="assets/img/logo.png" alt="Logo Di Buffala" />
         </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Trabajo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Características</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="true" href="#">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
       </div>
+      <!-- /.container-fluid -->
+    </nav>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right navbar__navigation">
-          <li><a href="#">Trabajo</a></li>
-          <li><a href="#">Características</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contacto</a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-
-    </div><!-- /.container-fluid -->
-  </nav>
-
-  <!-- Header -->
-  <header class="container-fluid header_di-buffala">
-    <h1>Lorem Ipsum</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <a class="btn button_di-buffala" href="#">Conoce Más</a>
-  </header>
-
-  <!-- Blog -->
-  <section class="container-fluid blog">
-    <div class="row">
-      <div class="blog__inner col-md-6">
-        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique ullamcorper luctus.</p>
-        <a class="btn button_di-buffala" href="#">Ver blog</a>
-      </div>
-      <div class="blog__inner blog__inner_background col-md-6"></div>
-    </div>
-  </section>
-
-  <!-- Features -->
-  <section class="container-fluid features">
-    <h1>Hola que tal </h1>
-    <h2>Lorem ipsum dolor sit</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique ullamcorper luctus. Nunc varius ullamcorper felis. Nulla nibh ipsum, rutrum.</p>
-    <div class="row">
-      <div class="col-lg-4 col-md-6 ">
-        <div class="features__inner">
-          <div class="features__inner-icon">
-            <i class="fas fa-exchange-alt"></i>
+    <!-- Header -->
+    <!-- <header class="container-fluid header_di-buffala">
+      <h1>Lorem Ipsum</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+      <a class="btn button_di-buffala" href="#">Conoce Más</a>
+    </header> -->
+    <header>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img/bg-header.jpg"
+              class="bd-placeholder-img bd-placeholder-img-lg carousel-img d-block w-100 mx-auto" alt
+              role="img"
+              focusable="false"
+            >
+              <title>Placeholder</title>
+            </img>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+              <a class="btn button_di-buffala p-3" href="#">Conoce Más</a>
+            </div>
           </div>
-          <h3>Lorem Ipsum</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique</p>
+          <div class="carousel-item">
+            <img src="assets/img/bg-header.jpg"
+              class="bd-placeholder-img bd-placeholder-img-lg carousel-img d-block w-100"
+              role="img"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title>Placeholder</title>
+            </svg>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>
+                Some representative placeholder content for the second slide.
+              </p>
+              <a class="btn button_di-buffala p-3" href="#">Conoce Más</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/bg-header.jpg"
+              class="bd-placeholder-img bd-placeholder-img-lg carousel-img d-block w-100"
+              role="img"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title>Placeholder</title>
+            </svg>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+              <a class="btn button_di-buffala p-3" href="#">Conoce Más</a>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Blog -->
+    <section class="container-fluid blog">
+      <div class="row">
+        <div class="blog__inner col-md-6">
+          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+            ultrices accumsan ornare. Phasellus tristique ullamcorper luctus.
+          </p>
+          <a class="btn button_di-buffala" href="#">Ver blog</a>
+        </div>
+        <div class="blog__inner blog__inner_background col-md-6"></div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="container-fluid features">
+      <h1>Hola que tal</h1>
+      <h2>Lorem ipsum dolor sit</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices
+        accumsan ornare. Phasellus tristique ullamcorper luctus. Nunc varius
+        ullamcorper felis. Nulla nibh ipsum, rutrum.
+      </p>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="features__inner">
+            <div class="features__inner-icon">
+              <i class="fas fa-exchange-alt"></i>
+            </div>
+            <h3>Lorem Ipsum</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+              ultrices accumsan ornare. Phasellus tristique
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="features__inner">
+            <div class="features__inner-icon">
+              <i class="far fa-smile"></i>
+            </div>
+            <h3>Lorem Ipsum</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+              ultrices accumsan ornare. Phasellus tristique
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="features__inner">
+            <div class="features__inner-icon">
+              <i class="fas fa-suitcase"></i>
+            </div>
+            <h3>Lorem Ipsum</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+              ultrices accumsan ornare. Phasellus tristique
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="features__inner">
+            <div class="features__inner-icon">
+              <i class="fas fa-user"></i>
+            </div>
+            <h3>Lorem Ipsum</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+              ultrices accumsan ornare. Phasellus tristique
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="features__inner">
+            <div class="features__inner-icon">
+              <i class="fas fa-recycle"></i>
+            </div>
+            <h3>Lorem Ipsum</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+              ultrices accumsan ornare. Phasellus tristique
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="features__inner">
+            <div class="features__inner-icon">
+              <i class="fa far fa-thumbs-up"></i>
+            </div>
+            <h3>Lorem Ipsum</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+              ultrices accumsan ornare. Phasellus tristique
+            </p>
+          </div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="features__inner">
-          <div class="features__inner-icon">
-             <i class="far fa-smile"></i>
-          </div>
-          <h3>Lorem Ipsum</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique</p>
+    </section>
+
+    <!-- Video -->
+    <section class="embed-responsive embed-responsive-16by9 video">
+      <iframe
+        class="embed-responsive-item"
+        src="https://www.youtube.com/embed/ZGn8kSV9gAA?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1""
+        frameborder="0"
+        allow="autoplay; encrypted-media"
+        allowfullscreen="allowfullscreen"
+      ></iframe>
+      <div class="video__inner">
+        <h2>Nuestros Éxitos</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices
+          accumsan ornare. Phasellus tristique ullamcorper luctus. Nunc varius
+          ullamcorper felis. Nulla nibh ipsum, rutrum.
+        </p>
+      </div>
+    </section>
+    
+
+    <!-- Portfolio section -->
+    <section class="container-fluid portfolio">
+      <h2>Trabajos Destacados</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices
+        accumsan ornare. Phasellus tristique ullamcorper luctus. Nunc varius
+        ullamcorper felis. Nulla nibh ipsum, rutrum.
+      </p>
+      <hr />
+      <div class="row">
+        <div class="portfolio__inner col-md-6">
+          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+            ultrices accumsan ornare. Phasellus tristique ullamcorper luctus.
+          </p>
+          <a class="btn button_di-buffala" href="#">Ver trabajo</a>
         </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="features__inner">
-          <div class="features__inner-icon">
-            <i class="fas fa-suitcase"></i>
-          </div>
-          <h3>Lorem Ipsum</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique</p>
+        <div
+          class="portfolio__inner portfolio__inner__image-top col-md-6"
+        ></div>
+
+        <div
+          class="portfolio__inner portfolio__inner__image-middle col-md-6"
+        ></div>
+        <div class="portfolio__inner col-md-6">
+          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+            ultrices accumsan ornare. Phasellus tristique ullamcorper luctus.
+          </p>
+          <a class="btn button_di-buffala" href="#">Ver trabajo</a>
         </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="features__inner">
-          <div class="features__inner-icon">
-            <i class="fas fa-user"></i>
-          </div>
-          <h3>Lorem Ipsum</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique</p>
+
+        <div class="portfolio__inner col-md-6">
+          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+            ultrices accumsan ornare. Phasellus tristique ullamcorper luctus.
+          </p>
+          <a class="btn button_di-buffala" href="#">Ver trabajo</a>
         </div>
+        <div
+          class="portfolio__inner portfolio__inner__image-bottom col-md-6"
+        ></div>
       </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="features__inner">
-          <div class="features__inner-icon">
-            <i class="fas fa-recycle"></i>
-          </div>
-          <h3>Lorem Ipsum</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique</p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="features__inner">
-          <div class="features__inner-icon">
-            <i class="fa far fa-thumbs-up"></i>
-          </div>
-          <h3>Lorem Ipsum</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
+    <!-- hola -->
+    <!-- Footer -->
+    <footer class="footer_di-buffala">
+      <small>DiBufalla 2018. Todos los derechos reservados.</small>
+    </footer>
 
-  <!-- Video -->
-  <section class="embed-responsive embed-responsive-16by9 video">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZGn8kSV9gAA?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    <div class="video__inner">
-      <h2>Nuestros Exitos</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique ullamcorper luctus. Nunc varius ullamcorper felis. Nulla nibh ipsum, rutrum.</p>
-    </div>
-  </section>
-
-  <!-- Portfolio section -->
-  <section class="container-fluid portfolio">
-    <h2>Trabajos Destacados</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique ullamcorper luctus. Nunc varius ullamcorper felis. Nulla nibh ipsum, rutrum.</p>
-    <hr>
-    <div class="row">
-      <div class="portfolio__inner col-md-6">
-        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique ullamcorper luctus.</p>
-        <a class="btn button_di-buffala" href="#">Ver trabajo</a>
-      </div>
-      <div class="portfolio__inner portfolio__inner__image-top col-md-6"></div>
-
-      <div class="portfolio__inner portfolio__inner__image-middle col-md-6"></div>
-      <div class="portfolio__inner col-md-6">
-        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique ullamcorper luctus.</p>
-        <a class="btn button_di-buffala" href="#">Ver trabajo</a>
-      </div>
-
-      <div class="portfolio__inner col-md-6">
-        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique ullamcorper luctus.</p>
-        <a class="btn button_di-buffala" href="#">Ver trabajo</a>
-      </div>
-      <div class="portfolio__inner portfolio__inner__image-bottom col-md-6"></div>
-      </div>
-  </section>
-<!-- hola -->
-  <!-- Footer -->
-  <footer class="footer_di-buffala">
-    <small>DiBufalla 2018. Todos los derechos reservados.</small>
-  </footer>
-
-
-  <!-- jquery -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <!-- Font Awesome 5 -->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
-  <!-- Main scripts -->
-  <script src="assets/js/script.js"></script>
-</body>
+    <!-- jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.js"
+      integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Font Awesome 5 -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"
+      integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Main scripts -->
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
