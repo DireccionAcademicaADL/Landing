@@ -386,4 +386,14 @@ p {
 .footer_di-buffala small {
   color: #fff;
   font-size: 1em;
+  margin-top: 5px;
+}
+
+.footer_di-buffala .footer_rrss{
+  color: #fff;
+  margin: 15px;
+}
+
+.footer_di-buffala .fa-brands{
+  margin: 5px;
 }
