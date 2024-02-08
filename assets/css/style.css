@@ -45,10 +45,10 @@ p {
 /* Button */
 
 .button_di-buffala {
-  background-color: #325DFF;
+  background-color:#0c694a;
   border-radius: 30px;
   padding: 2rem 6rem;
-  color: #fff;
+  color:black;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -61,11 +61,11 @@ p {
 /* Navbar */
 
 .navbar_di-buffala {
-  background-color: #325DFF;
+  background-color: #0c694a;
   color: hsla(0, 100%, 100%, 0.52);
 }
 .icon-bar {
-  background-color: #fff;
+  background-color: black;
 }
 
 .navbar-brand img {
@@ -73,7 +73,7 @@ p {
 }
 
 .navbar-nav > li > a{
-  color: #fff;
+  color: black;
   text-shadow: none;
   text-transform: uppercase;
 }
