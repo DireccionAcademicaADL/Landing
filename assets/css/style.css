@@ -1,5 +1,15 @@
 /* Global Styles */
 
+:root {
+  --primary-color: #325DFF;
+  --primary-color-light: hsla(227, 100%, 60%, .1);
+  --font-color: hsla(0, 0%, 0%, 0.8);
+  --white: #fff;
+  --grey1: hsla(0, 100%, 100%, 0.52);
+  --grey2: hsla(0, 0%, 100%, .8);
+
+}
+
 h1, h2, h3 {
   font-family: 'Lato', sans-serif;
 }
@@ -23,7 +33,7 @@ h3 {
 }
 
 p {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: var(--font-color);
 }
 
 @media only screen and (max-width : 767px) {
@@ -45,27 +55,27 @@ p {
 /* Button */
 
 .button_di-buffala {
-  background-color: #325DFF;
+  background-color: var(--primary-color);
   border-radius: 30px;
   padding: 2rem 6rem;
-  color: #fff;
+  color: var(--white);
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .button_di-buffala:hover {
-  background-color: hsla(227, 100%, 60%, .1);
-  color: #325DFF;
+  background-color: var(--primary-color-light);
+  color: var(--primary-color)
 }
 
 /* Navbar */
 
 .navbar_di-buffala {
-  background-color: #325DFF;
-  color: hsla(0, 100%, 100%, 0.52);
+  background-color: var(--primary-color);
+  color: var(--grey1);
 }
 .icon-bar {
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 .navbar-brand img {
@@ -73,7 +83,7 @@ p {
 }
 
 .navbar-nav > li > a{
-  color: #fff;
+  color: var(--white);
   text-shadow: none;
   text-transform: uppercase;
 }
@@ -99,12 +109,12 @@ p {
 }
 
 .header_di-buffala h1 {
-  color: #fff;
+  color: var(--white);
   font-size: 5em;
 }
 
 .header_di-buffala p {
-  color: hsla(0, 0%, 100%, .8);
+  color: var(--grey2);
   line-height: 22px;
   padding: 1rem 30vw;
 }
@@ -197,7 +207,7 @@ p {
 }
 
 .features__inner-icon {
-  background-color: #325DFF;
+  background-color: var(--primary-color);
   border-radius: 50%;
   width: 100px;
   height: 100px;
@@ -206,7 +216,7 @@ p {
 }
 
 .svg-inline--fa  {
-  color: #fff;
+  color: var(--white);
   font-size: 40px;
   position: absolute;
   top: 30px;
@@ -251,7 +261,7 @@ p {
 .video__inner {
   position: absolute;
   top: 60%;
-  color: #fff;
+  color: var(--white)
 }
 
 .video__inner h2 {
@@ -260,7 +270,7 @@ p {
 
 .video__inner p {
   padding: 0 20vw;
-  color: #fff;
+  color: var(--white)
 }
 
 @media only screen and (max-width : 767px) {
@@ -378,12 +388,12 @@ p {
 
 
 .footer_di-buffala {
-  background-color: #325DFF;
+  background-color: var(--primary-color);
   padding: 5vw 1rem;
   text-align: center;
 }
 
 .footer_di-buffala small {
-  color: #fff;
+  color: var(--white);
   font-size: 1em;
 }
