@@ -1,21 +1,26 @@
 /* Global Styles */
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: 'Lato', sans-serif;
 }
 
-p, li, a, small {
+p,
+li,
+a,
+small {
   font-family: 'Poppins', sans-serif;
 }
 
 /* Font hierarchy */
 
 h1 {
- font-size: 3em;
+  font-size: 3em;
 }
 
 h2 {
- font-size: 2.25em;
+  font-size: 2.25em;
 }
 
 h3 {
@@ -29,11 +34,11 @@ p {
 @media only screen and (max-width : 767px) {
 
   h1 {
-   font-size: 2em;
+    font-size: 2em;
   }
 
   h2 {
-   font-size: 1.625em;
+    font-size: 1.625em;
   }
 
   h3 {
@@ -61,9 +66,10 @@ p {
 /* Navbar */
 
 .navbar_di-buffala {
-  background-color: #325DFF;
-  color: hsla(0, 100%, 100%, 0.52);
+  background-color: #cd853f;
+  color: hsl(0, 0%, 100%);
 }
+
 .icon-bar {
   background-color: #fff;
 }
@@ -72,14 +78,15 @@ p {
   max-width: 120px;
 }
 
-.navbar-nav > li > a{
+.navbar-nav>li>a {
   color: #fff;
   text-shadow: none;
   text-transform: uppercase;
 }
-.nav > li > a:hover {
+
+.nav>li>a:hover {
   background-color: initial;
-  color: hsla(0, 0%, 100%, .5);
+  color: hsl(0, 0%, 0%);
 }
 
 .navbar {
@@ -92,10 +99,12 @@ p {
   background-image: url("../img/bg-header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: 'Lato';
   text-align: center;
   height: 700px;
   padding-top: 150px;
   background-position: right bottom;
+  font-style: italic;
 }
 
 .header_di-buffala h1 {
@@ -145,6 +154,7 @@ p {
 .blog__inner h3 {
   font-size: 3em;
 }
+
 .blog__inner p {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -157,6 +167,7 @@ p {
     padding-left: 15vw;
     padding-bottom: 5vh;
   }
+
   .blog__inner h3 {
     font-size: 2em;
   }
@@ -181,7 +192,7 @@ p {
   padding: 1rem 15vw;
 }
 
-.features__inner{
+.features__inner {
   border: 1px solid hsla(0, 0%, 0%, .1);
   border-radius: 3px;
   padding: 5rem 0rem;
@@ -205,7 +216,7 @@ p {
   position: relative;
 }
 
-.svg-inline--fa  {
+.svg-inline--fa {
   color: #fff;
   font-size: 40px;
   position: absolute;
@@ -368,7 +379,9 @@ p {
     padding: 1rem 8vw 1rem 0;
   }
 
-  .portfolio__inner__image-top, .portfolio__inner__image-middle, .portfolio__inner__image-bottom {
+  .portfolio__inner__image-top,
+  .portfolio__inner__image-middle,
+  .portfolio__inner__image-bottom {
     display: none;
   }
 
@@ -378,7 +391,7 @@ p {
 
 
 .footer_di-buffala {
-  background-color: #325DFF;
+  background-color: #cd853f;
   padding: 5vw 1rem;
   text-align: center;
 }
