@@ -1,5 +1,12 @@
 /* Global Styles */
 
+
+body{
+  background-color: #282828;
+  color: white;
+  border-color: #ffffff27;
+}
+
 h1, h2, h3 {
   font-family: 'Lato', sans-serif;
 }
@@ -23,7 +30,7 @@ h3 {
 }
 
 p {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: hsla(0, 0%, 100%, 0.8);
 }
 
 @media only screen and (max-width : 767px) {
@@ -45,7 +52,7 @@ p {
 /* Button */
 
 .button_di-buffala {
-  background-color: #325DFF;
+  background-color: #9171f8;
   border-radius: 30px;
   padding: 2rem 6rem;
   color: #fff;
@@ -55,13 +62,13 @@ p {
 
 .button_di-buffala:hover {
   background-color: hsla(227, 100%, 60%, .1);
-  color: #325DFF;
+  color: #9171f8;
 }
 
 /* Navbar */
 
 .navbar_di-buffala {
-  background-color: #325DFF;
+  background-color: #121212;
   color: hsla(0, 100%, 100%, 0.52);
 }
 .icon-bar {
@@ -99,7 +106,7 @@ p {
 }
 
 .header_di-buffala h1 {
-  color: #fff;
+  color: white;
   font-size: 5em;
 }
 
@@ -182,7 +189,7 @@ p {
 }
 
 .features__inner{
-  border: 1px solid hsla(0, 0%, 0%, .1);
+  border: 1px solid hsla(0, 0%, 100%, 0.1);
   border-radius: 3px;
   padding: 5rem 0rem;
   margin: 3rem 1rem;
@@ -197,7 +204,7 @@ p {
 }
 
 .features__inner-icon {
-  background-color: #325DFF;
+  background-color: #9171f8;
   border-radius: 50%;
   width: 100px;
   height: 100px;
@@ -378,7 +385,7 @@ p {
 
 
 .footer_di-buffala {
-  background-color: #325DFF;
+  background-color: #9171f8;
   padding: 5vw 1rem;
   text-align: center;
 }
