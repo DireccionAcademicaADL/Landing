@@ -1,0 +1,53 @@
+[33mcommit 4ed6ce4205a912c8f3713234c734e25e1aff19b1[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: c3c10ca 42738f4
+Author: Ricardo Rodulfo <67205258+ricardorodulfo-stack@users.noreply.github.com>
+Date:   Wed Jun 24 21:47:57 2020 -0400
+
+    Merge pull request #42 from diazmclaudio/master
+    
+    Pull request claudio
+
+[33mcommit 42738f48ffa857783dbe3ced181642d191682678[m
+Author: ClaudioDiaz <claudio.diaz.morales@gmail.com>
+Date:   Wed Jun 24 21:42:05 2020 -0400
+
+    texto color blanco
+
+[33mcommit 4522fd70a9b3b3a16bde04b83fba0013fa5df084[m
+Author: ClaudioDiaz <claudio.diaz.morales@gmail.com>
+Date:   Wed Jun 24 21:32:19 2020 -0400
+
+    footer azul, texto color blanco
+
+[33mcommit c3c10caf877af6061f8bc2a65ef07b6a6fce8ce2[m
+Merge: d5f619c a3e02f7
+Author: Ricardo Rodulfo <67205258+ricardorodulfo-stack@users.noreply.github.com>
+Date:   Wed Jun 24 21:23:02 2020 -0400
+
+    Merge pull request #40 from angelarciniaga/hotfix-1
+    
+    cambio de color de la barra
+
+[33mcommit 1e57c8c4d96132ca781f88bb38ef7b83caee9e17[m
+Author: ClaudioDiaz <claudio.diaz.morales@gmail.com>
+Date:   Wed Jun 24 21:05:52 2020 -0400
+
+    se ajusta cierre de div row de la sección portafolio
+
+[33mcommit a3e02f72a2408ac882eefc9dabc0d3e1aba27c9a[m
+Author: Angel <angelarciniaga@gmail.com>
+Date:   Wed Jun 24 21:05:50 2020 -0400
+
+    cambio de color de la barra
+
+[33mcommit 23829a53603282edb86a81e3ce04d9c9618b6e9f[m
+Author: ClaudioDiaz <claudio.diaz.morales@gmail.com>
+Date:   Wed Jun 24 20:59:47 2020 -0400
+
+    se agrega un comentario
+
+[33mcommit d5f619c082b60f5b9361b2834ab129e4b12ea65a[m
+Author: Dirección Académica de Desafío Latam <50961944+DireccionAcademicaADL@users.noreply.github.com>
+Date:   Thu Jan 9 10:52:54 2020 -0300
+
+    primer commit
