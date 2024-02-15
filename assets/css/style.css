@@ -1,21 +1,28 @@
 /* Global Styles */
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: 'Lato', sans-serif;
+
 }
 
-p, li, a, small {
+p,
+li,
+a,
+small {
   font-family: 'Poppins', sans-serif;
 }
 
 /* Font hierarchy */
 
 h1 {
- font-size: 3em;
+  font-size: 3em;
+
 }
 
 h2 {
- font-size: 2.25em;
+  font-size: 2.25em;
 }
 
 h3 {
@@ -29,11 +36,12 @@ p {
 @media only screen and (max-width : 767px) {
 
   h1 {
-   font-size: 2em;
+    font-size: 2em;
+    color: black;
   }
 
   h2 {
-   font-size: 1.625em;
+    font-size: 1.625em;
   }
 
   h3 {
@@ -42,28 +50,38 @@ p {
 
 }
 
+
+.logotrip {
+  margin-bottom: 2rem;
+}
+
+
 /* Button */
 
 .button_di-buffala {
-  background-color: #325DFF;
+  background-color: #34E0A1;
   border-radius: 30px;
   padding: 2rem 6rem;
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
+
 }
 
 .button_di-buffala:hover {
   background-color: hsla(227, 100%, 60%, .1);
-  color: #325DFF;
+  color: #34E0A1;
 }
 
 /* Navbar */
 
 .navbar_di-buffala {
-  background-color: #325DFF;
+  background-color: #34E0A1;
   color: hsla(0, 100%, 100%, 0.52);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
+
 .icon-bar {
   background-color: #fff;
 }
@@ -72,12 +90,13 @@ p {
   max-width: 120px;
 }
 
-.navbar-nav > li > a{
+.navbar-nav>li>a {
   color: #fff;
   text-shadow: none;
   text-transform: uppercase;
 }
-.nav > li > a:hover {
+
+.nav>li>a:hover {
   background-color: initial;
   color: hsla(0, 0%, 100%, .5);
 }
@@ -145,6 +164,7 @@ p {
 .blog__inner h3 {
   font-size: 3em;
 }
+
 .blog__inner p {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -157,6 +177,7 @@ p {
     padding-left: 15vw;
     padding-bottom: 5vh;
   }
+
   .blog__inner h3 {
     font-size: 2em;
   }
@@ -181,7 +202,7 @@ p {
   padding: 1rem 15vw;
 }
 
-.features__inner{
+.features__inner {
   border: 1px solid hsla(0, 0%, 0%, .1);
   border-radius: 3px;
   padding: 5rem 0rem;
@@ -205,7 +226,7 @@ p {
   position: relative;
 }
 
-.svg-inline--fa  {
+.svg-inline--fa {
   color: #fff;
   font-size: 40px;
   position: absolute;
@@ -368,7 +389,9 @@ p {
     padding: 1rem 8vw 1rem 0;
   }
 
-  .portfolio__inner__image-top, .portfolio__inner__image-middle, .portfolio__inner__image-bottom {
+  .portfolio__inner__image-top,
+  .portfolio__inner__image-middle,
+  .portfolio__inner__image-bottom {
     display: none;
   }
 
