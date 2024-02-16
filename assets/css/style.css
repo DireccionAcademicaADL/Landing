@@ -4,6 +4,11 @@ h1, h2, h3 {
   font-family: 'Lato', sans-serif;
 }
 
+h1 {
+  size: 30px;
+  background-color: rgb(75, 204, 191);
+}
+
 p, li, a, small {
   font-family: 'Poppins', sans-serif;
 }
