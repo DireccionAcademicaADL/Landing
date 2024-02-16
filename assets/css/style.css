@@ -99,8 +99,8 @@ p {
 }
 
 .header_di-buffala h1 {
-  color: #fff;
-  font-size: 5em;
+  color: crimson;
+  font-size: 8em;
 }
 
 .header_di-buffala p {
@@ -387,3 +387,4 @@ p {
   color: #fff;
   font-size: 1em;
 }
+
