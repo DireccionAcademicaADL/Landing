@@ -1,3 +1,13 @@
+:root {
+  --azul:#325DFF;
+  --negro:hsla(0, 0%, 0%, 0.8);
+  --blanco: #fff;
+  --gris: hsla(0, 100%, 100%, 0.52);
+  --gris-claro: hsla(0, 0%, 100%, .8);
+  --casi-negro: hsla(0, 0%, 0%, .1);
+  --azul-marino: hsla(227, 100%, 60%, .1);
+}
+
 /* Global Styles */
 
 h1, h2, h3 {
@@ -23,7 +33,7 @@ h3 {
 }
 
 p {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: var(--negro);
 }
 
 @media only screen and (max-width : 767px) {
@@ -45,27 +55,27 @@ p {
 /* Button */
 
 .button_di-buffala {
-  background-color: #325DFF;
+  background-color: var(--azul);
   border-radius: 30px;
   padding: 2rem 6rem;
-  color: #fff;
+  color: var(--blanco);
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .button_di-buffala:hover {
-  background-color: hsla(227, 100%, 60%, .1);
-  color: #325DFF;
+  background-color: var(--azul-marino);
+  color: var(--azul);
 }
 
 /* Navbar */
 
 .navbar_di-buffala {
-  background-color: #325DFF;
-  color: hsla(0, 100%, 100%, 0.52);
+  background-color: var(--azul);
+  color: var(--gris)
 }
 .icon-bar {
-  background-color: #fff;
+  background-color: var(--blanco);
 }
 
 .navbar-brand img {
@@ -73,13 +83,13 @@ p {
 }
 
 .navbar-nav > li > a{
-  color: #fff;
+  color: var(--blanco);
   text-shadow: none;
   text-transform: uppercase;
 }
 .nav > li > a:hover {
   background-color: initial;
-  color: hsla(0, 0%, 100%, .5);
+  color: var(--gris);
 }
 
 .navbar {
@@ -99,12 +109,12 @@ p {
 }
 
 .header_di-buffala h1 {
-  color: #fff;
+  color: var(--blanco);
   font-size: 5em;
 }
 
 .header_di-buffala p {
-  color: hsla(0, 0%, 100%, .8);
+  color: var(--gris-claro);
   line-height: 22px;
   padding: 1rem 30vw;
 }
@@ -182,7 +192,7 @@ p {
 }
 
 .features__inner{
-  border: 1px solid hsla(0, 0%, 0%, .1);
+  border: 1px solid var(--casi-negro);
   border-radius: 3px;
   padding: 5rem 0rem;
   margin: 3rem 1rem;
@@ -197,7 +207,7 @@ p {
 }
 
 .features__inner-icon {
-  background-color: #325DFF;
+  background-color: var(--azul);
   border-radius: 50%;
   width: 100px;
   height: 100px;
@@ -206,7 +216,7 @@ p {
 }
 
 .svg-inline--fa  {
-  color: #fff;
+  color: var(--blanco);
   font-size: 40px;
   position: absolute;
   top: 30px;
@@ -251,7 +261,7 @@ p {
 .video__inner {
   position: absolute;
   top: 60%;
-  color: #fff;
+  color: var(--blanco);
 }
 
 .video__inner h2 {
@@ -260,7 +270,7 @@ p {
 
 .video__inner p {
   padding: 0 20vw;
-  color: #fff;
+  color: var(--blanco);
 }
 
 @media only screen and (max-width : 767px) {
@@ -378,12 +388,12 @@ p {
 
 
 .footer_di-buffala {
-  background-color: #325DFF;
+  background-color: var(--azul);
   padding: 5vw 1rem;
   text-align: center;
 }
 
 .footer_di-buffala small {
-  color: #fff;
+  color: var(--blanco);
   font-size: 1em;
 }
