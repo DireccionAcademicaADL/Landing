@@ -54,7 +54,7 @@ p {
 }
 
 .button_di-buffala:hover {
-  background-color: hsla(227, 100%, 60%, .1);
+  background-color: hsl(0, 0%, 100%);
   color: #325DFF;
 }
 
