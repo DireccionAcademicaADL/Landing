@@ -89,6 +89,7 @@ p {
 /* Header */
 
 .header_di-buffala {
+  opacity: 0.9;
   background-image: url("../img/bg-header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -385,5 +386,5 @@ p {
 
 .footer_di-buffala small {
   color: #fff;
-  font-size: 1em;
+  font-size: 1.4em;
 }
