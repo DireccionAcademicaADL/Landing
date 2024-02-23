@@ -83,6 +83,8 @@ p {
 }
 
 .navbar {
+  padding-top: 5px;
+  padding-bottom: 7px;
   margin-bottom: 0;
 }
 
@@ -379,7 +381,7 @@ p {
 
 .footer_di-buffala {
   background-color: #325DFF;
-  padding: 5vw 1rem;
+  padding: 2rem;
   text-align: center;
 }
 
