@@ -23,7 +23,7 @@ h3 {
 }
 
 p {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: hsla(0, 89%, 49%, 0.628);
 }
 
 @media only screen and (max-width : 767px) {
@@ -61,9 +61,10 @@ p {
 /* Navbar */
 
 .navbar_di-buffala {
-  background-color: #325DFF;
+  background-color: #941b7c;
   color: hsla(0, 100%, 100%, 0.52);
 }
+
 .icon-bar {
   background-color: #fff;
 }
