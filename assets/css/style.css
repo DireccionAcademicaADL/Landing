@@ -46,7 +46,7 @@ p {
 
 .button_di-buffala {
   background-color: #325DFF;
-  border-radius: 30px;
+  border-radius: 20px;
   padding: 2rem 6rem;
   color: #fff;
   text-transform: uppercase;
@@ -54,7 +54,7 @@ p {
 }
 
 .button_di-buffala:hover {
-  background-color: hsla(227, 100%, 60%, .1);
+  background-color: #fff;
   color: #325DFF;
 }
 
