@@ -245,13 +245,14 @@ p {
 .video {
   position: relative;
   text-align: center;
-  padding-left: 40px;
 }
 
 .video__inner {
   position: absolute;
   top: 60%;
+  width: 100%;
   color: #fff;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
 }
 
 .video__inner h2 {
