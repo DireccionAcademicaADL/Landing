@@ -45,7 +45,7 @@ p {
 /* Button */
 
 .button_di-buffala {
-  background-color: #325DFF;
+  background-color: #354f52;
   border-radius: 30px;
   padding: 2rem 6rem;
   color: #fff;
@@ -54,14 +54,14 @@ p {
 }
 
 .button_di-buffala:hover {
-  background-color: hsla(227, 100%, 60%, .1);
-  color: #325DFF;
+  background-color: #84A98C;
+  color: #ffffff;
 }
 
 /* Navbar */
 
 .navbar_di-buffala {
-  background-color: #325DFF;
+  background-color: #354f52;
   color: hsla(0, 100%, 100%, 0.52);
 }
 .icon-bar {
@@ -129,12 +129,17 @@ p {
 
 /* Blog */
 
+.blog{
+  background-color: #CAD2C5;
+}
+
 .blog__inner_background {
   background-image: url("../img/img-blog.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 500px;
+  border-left: 2px solid #354f52;
 }
 
 .blog__inner {
@@ -171,6 +176,7 @@ p {
 .features {
   text-align: center;
   padding: 4rem 10vw 10rem 10vw;
+  background-color: #CAD2C5;
 }
 
 .features h2 {
@@ -182,10 +188,11 @@ p {
 }
 
 .features__inner{
-  border: 1px solid hsla(0, 0%, 0%, .1);
+  border: 1px solid #354f52;
   border-radius: 3px;
   padding: 5rem 0rem;
   margin: 3rem 1rem;
+  background-color: #84A98C;
 }
 
 .features__inner h3 {
@@ -197,7 +204,7 @@ p {
 }
 
 .features__inner-icon {
-  background-color: #325DFF;
+  background-color: #354f52;
   border-radius: 50%;
   width: 100px;
   height: 100px;
@@ -290,6 +297,11 @@ p {
   text-align: center;
   padding-top: 4rem;
   margin: 0;
+  background-color: #CAD2C5;
+}
+
+hr{
+  border-color: #354f52;
 }
 
 .portfolio h2 {
@@ -323,14 +335,17 @@ p {
 
 .portfolio__inner__image-top {
   background-image: url("../img/portfolio-1.jpg");
+  border-radius: 15px;
 }
 
 .portfolio__inner__image-middle {
   background-image: url("../img/portfolio-2.jpg");
+  border-radius: 15px;
 }
 
 .portfolio__inner__image-bottom {
   background-image: url("../img/portfolio-3.jpg");
+  border-radius: 15px;
 }
 
 @media only screen and (max-width : 767px) {
@@ -378,7 +393,7 @@ p {
 
 
 .footer_di-buffala {
-  background-color: #325DFF;
+  background-color: #354f52;
   padding: 5vw 1rem;
   text-align: center;
 }
