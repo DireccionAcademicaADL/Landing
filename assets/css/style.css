@@ -5,8 +5,12 @@ h1, h2, h3 {
 }
 
 p, li, a, small {
-  font-family: 'Poppins', sans-serif;
-}
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
 
 /* Font hierarchy */
 
