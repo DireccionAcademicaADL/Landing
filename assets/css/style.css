@@ -376,7 +376,15 @@ p {
 
 /* Footer */
 
-
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer img{
+  width: 15rem;
+  padding: 15px 0;
+}
 .footer_di-buffala {
   background-color: #325DFF;
   padding: 5vw 1rem;
