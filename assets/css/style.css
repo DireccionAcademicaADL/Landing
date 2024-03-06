@@ -44,6 +44,8 @@ p {
 
 /* Button */
 
+
+
 .button_di-buffala {
   background-color: #325DFF;
   border-radius: 30px;
@@ -52,6 +54,8 @@ p {
   text-transform: uppercase;
   text-decoration: none;
 }
+
+
 
 .button_di-buffala:hover {
   background-color: hsla(227, 100%, 60%, .1);
@@ -186,6 +190,8 @@ p {
   border-radius: 3px;
   padding: 5rem 0rem;
   margin: 3rem 1rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease-in-out;
 }
 
 .features__inner h3 {
@@ -203,6 +209,10 @@ p {
   height: 100px;
   margin: auto;
   position: relative;
+}
+
+.features__inner:hover{
+  transform: scale(1.05);
 }
 
 .svg-inline--fa  {
