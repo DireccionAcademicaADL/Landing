@@ -374,6 +374,30 @@ p {
 
 }
 
+
+.oferta-container {
+ 
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.oferta-text {
+ 
+  display: inline-block;
+  animation: desplazamiento 15s linear infinite;
+}
+
+@keyframes desplazamiento {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+
 /* Footer */
 
 
