@@ -1,6 +1,7 @@
 /* Global Styles */
 
 h1, h2, h3 {
+  color: yellow;
   font-family: 'Lato', sans-serif;
 }
 
