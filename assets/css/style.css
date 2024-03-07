@@ -1,5 +1,9 @@
 /* Global Styles */
 
+body{
+  background-color: #eeeefa;
+}
+
 h1, h2, h3 {
   font-family: 'Lato', sans-serif;
 }
