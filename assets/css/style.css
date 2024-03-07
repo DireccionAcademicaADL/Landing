@@ -6,6 +6,8 @@ h1, h2, h3 {
 
 p, li, a, small {
   font-family: 'Poppins', sans-serif;
+  font-size: 1.1em;
+  text-decoration: none;
 }
 
 /* Font hierarchy */
@@ -51,6 +53,7 @@ p {
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
+  font-size: 1.2em;
 }
 
 .button_di-buffala:hover {
