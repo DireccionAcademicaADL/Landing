@@ -58,6 +58,19 @@ p {
   color: #325DFF;
 }
 
+.fa-brands {
+  color: white; 
+  font-size: 50px; 
+  padding: 20px;
+  
+}
+
+small {
+  display: block;
+  margin-top: 10px; /* Espacio entre íconos y texto */
+  color: white; /* Cambiar el color del texto a blanco */
+}
+
 /* Navbar */
 
 .navbar_di-buffala {
@@ -167,6 +180,10 @@ p {
 }
 
 /* Features */
+
+.fas {
+  color: white;
+}
 
 .features {
   text-align: center;
