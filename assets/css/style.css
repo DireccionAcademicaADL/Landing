@@ -1,3 +1,8 @@
+:root {
+  --azul: #325DFF;
+  --rojo: #ff3232;
+}
+
 /* Global Styles */
 
 h1, h2, h3 {
@@ -45,7 +50,7 @@ p {
 /* Button */
 
 .button_di-buffala {
-  background-color: #325DFF;
+  background-color: var(--rojo);
   border-radius: 30px;
   padding: 2rem 6rem;
   color: #fff;
@@ -55,13 +60,13 @@ p {
 
 .button_di-buffala:hover {
   background-color: hsla(227, 100%, 60%, .1);
-  color: #325DFF;
+  color: var(--rojo);
 }
 
 /* Navbar */
 
 .navbar_di-buffala {
-  background-color: #325DFF;
+  background-color: var(--rojo);
   color: hsla(0, 100%, 100%, 0.52);
 }
 .icon-bar {
@@ -197,7 +202,7 @@ p {
 }
 
 .features__inner-icon {
-  background-color: #325DFF;
+  background-color: var(--rojo);
   border-radius: 50%;
   width: 100px;
   height: 100px;
@@ -378,7 +383,7 @@ p {
 
 
 .footer_di-buffala {
-  background-color: #325DFF;
+  background-color: var(--rojo);
   padding: 5vw 1rem;
   text-align: center;
 }
