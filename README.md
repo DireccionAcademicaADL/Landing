@@ -37,5 +37,6 @@
 
 6. Crear un pull request describiendo los cambios implementados.
 
-[Repositorio a Forkear](https://github.com/TheNefelin/Landing)
+<img src="./assets/img/pull_request.png">
 
+<img src="./assets/img/fin_request.png">
