@@ -4,7 +4,7 @@
 
 [Repositorio a Forkear](https://github.com/TheNefelin/Landing)
 
-<img src="./assets/img/fork.png">
+<img src="./assets/img/fork_poll_request_1.png">
 
 2. Clonar el repositorio a nuestro computador.
 ```
@@ -37,6 +37,8 @@
 
 6. Crear un pull request describiendo los cambios implementados.
 
-<img src="./assets/img/pull_request.png">
+<img src="./assets/img/fork_poll_request_2.png">
 
-<img src="./assets/img/fin_request.png">
+<img src="./assets/img/fork_poll_request_3.png">
+
+<img src="./assets/img/fork_poll_request_4.png">
