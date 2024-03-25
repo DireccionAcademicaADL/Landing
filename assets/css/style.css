@@ -387,8 +387,3 @@ p {
   color: #fff;
   font-size: 1em;
 }
-
-.footer_di-buffala i {
-  display: block; /* Para que los íconos estén en línea */
-  margin: 0 auto; /* Centrar horizontalmente los íconos */
-}
