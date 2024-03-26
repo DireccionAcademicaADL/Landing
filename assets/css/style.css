@@ -51,6 +51,7 @@ p {
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .button_di-buffala:hover {
@@ -100,13 +101,15 @@ p {
 
 .header_di-buffala h1 {
   color: #fff;
-  font-size: 5em;
+  font-size: 4em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .header_di-buffala p {
   color: hsla(0, 0%, 100%, .8);
   line-height: 22px;
   padding: 1rem 30vw;
+  text-shadow: 2px 2px 4px rgba(1, 0, 0, 1.5);
 }
 
 @media only screen and (max-width : 767px) {
