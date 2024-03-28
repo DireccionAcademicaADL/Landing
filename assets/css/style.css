@@ -8,6 +8,10 @@ p, li, a, small {
   font-family: 'Poppins', sans-serif;
 }
 
+body {
+  background-color: azure;
+}
+
 /* Font hierarchy */
 
 h1 {
