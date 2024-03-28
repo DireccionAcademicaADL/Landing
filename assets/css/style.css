@@ -61,7 +61,7 @@ p {
 /* Navbar */
 
 .navbar_di-buffala {
-  background-color: #325DFF;
+  background-color: rosybrown;
   color: hsla(0, 100%, 100%, 0.52);
 }
 .icon-bar {
@@ -378,7 +378,7 @@ p {
 
 
 .footer_di-buffala {
-  background-color: #325DFF;
+  background-color: rosybrown;
   padding: 5vw 1rem;
   text-align: center;
 }
