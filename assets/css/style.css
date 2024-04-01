@@ -241,16 +241,29 @@ p {
 }
 
 /* Video */
-
-.video {
+.video__container {
   position: relative;
-  text-align: center;
-  padding-left: 40px;
+  width: 100%;
+}
+
+.video__container video {
+  width: 100%; 
+}
+
+.video__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5); 
 }
 
 .video__inner {
-  position: absolute;
-  top: 60%;
+  text-align: center;
   color: #fff;
 }
 
@@ -262,6 +275,10 @@ p {
   padding: 0 20vw;
   color: #fff;
 }
+
+
+
+
 
 @media only screen and (max-width : 767px) {
 
