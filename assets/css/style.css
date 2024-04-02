@@ -93,7 +93,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  height: 700px;
+  height: 450px;
   padding-top: 150px;
   background-position: right bottom;
 }
@@ -129,12 +129,16 @@ p {
 
 /* Blog */
 
+.blog{
+  border: solid 1px #5f5f5f7c;
+}
+
 .blog__inner_background {
   background-image: url("../img/img-blog.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 500px;
+  height: 450px;
 }
 
 .blog__inner {
@@ -379,7 +383,7 @@ p {
 
 .footer_di-buffala {
   background-color: #325DFF;
-  padding: 5vw 1rem;
+  padding: 2vw 1rem;
   text-align: center;
 }
 
