@@ -11,15 +11,18 @@ p, li, a, small {
 /* Font hierarchy */
 
 h1 {
- font-size: 3em;
+  font-size: 3em;
+  color: #E4AFFF;
 }
 
 h2 {
- font-size: 2.25em;
+  font-size: 2.25em;
+  color: #47026C;
 }
 
 h3 {
   font-size: 1.75em;
+  color: #47026C;
 }
 
 p {
@@ -29,11 +32,11 @@ p {
 @media only screen and (max-width : 767px) {
 
   h1 {
-   font-size: 2em;
+    font-size: 2em;
   }
 
   h2 {
-   font-size: 1.625em;
+    font-size: 1.625em;
   }
 
   h3 {
@@ -45,7 +48,7 @@ p {
 /* Button */
 
 .button_di-buffala {
-  background-color: #325DFF;
+  background-color: #C86BFA;
   border-radius: 30px;
   padding: 2rem 6rem;
   color: #fff;
@@ -54,18 +57,18 @@ p {
 }
 
 .button_di-buffala:hover {
-  background-color: hsla(227, 100%, 60%, .1);
-  color: #325DFF;
+  background-color: #FFAFCC(227, 100%, 60%, .1);
+  color: #CDB4DB;
 }
 
 /* Navbar */
 
 .navbar_di-buffala {
-  background-color: #325DFF;
+  background-color: #47026C;
   color: hsla(0, 100%, 100%, 0.52);
 }
 .icon-bar {
-  background-color: #fff;
+  background-color: #C86BFA;
 }
 
 .navbar-brand img {
@@ -119,6 +122,7 @@ p {
 
   .header_di-buffala h1 {
     font-size: 3em;
+    font-weight: bolder;
   }
 
   .header_di-buffala p {
@@ -197,7 +201,7 @@ p {
 }
 
 .features__inner-icon {
-  background-color: #325DFF;
+  background-color: #47026C;
   border-radius: 50%;
   width: 100px;
   height: 100px;
@@ -378,7 +382,7 @@ p {
 
 
 .footer_di-buffala {
-  background-color: #325DFF;
+  background-color: #47026C;
   padding: 5vw 1rem;
   text-align: center;
 }
