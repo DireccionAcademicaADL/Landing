@@ -246,21 +246,30 @@ p {
   position: relative;
   text-align: center;
   padding-left: 40px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .video__inner {
   position: absolute;
   top: 60%;
   color: #fff;
+  margin-left: 20vw;
+  margin-right: 20vw;
 }
 
 .video__inner h2 {
   font-size: 3em;
+  opacity: 0.5;
+  background:#000;
+  margin-left: 17vw;
+  margin-right: 17vw;
 }
 
 .video__inner p {
-  padding: 0 20vw;
   color: #fff;
+  opacity: 0.5;
+  background:#000;
 }
 
 @media only screen and (max-width : 767px) {
