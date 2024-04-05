@@ -2,16 +2,19 @@
 
 h1, h2, h3 {
   font-family: 'Lato', sans-serif;
+  color: aqua;
 }
 
 p, li, a, small {
   font-family: 'Poppins', sans-serif;
+
 }
 
 /* Font hierarchy */
 
 h1 {
  font-size: 3em;
+ color: aqua;
 }
 
 h2 {
@@ -99,7 +102,7 @@ p {
 }
 
 .header_di-buffala h1 {
-  color: #fff;
+  color:blueviolet;
   font-size: 5em;
 }
 
