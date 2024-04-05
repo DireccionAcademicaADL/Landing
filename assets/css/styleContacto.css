@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 100px; /* Añade un padding al final para dejar espacio para el footer */
+}
+
+.footer_di-buffala {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.padding-contacto {
+    margin-bottom: 120px; /* Añade un margen inferior igual a la altura del footer más un espacio adicional */
+}
