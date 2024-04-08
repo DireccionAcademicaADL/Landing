@@ -374,6 +374,39 @@ p {
 
 }
 
+/* Formulario */
+
+.formulario {
+  text-align: center;
+  padding-top: 4rem;
+  margin: 0;
+}
+
+.formulario h2 {
+  font-size: 3em;
+}
+
+.formulario p {
+  padding: 1rem 24vw;
+}
+
+/* .portfolio > hr {
+  visibility: hidden;
+} */
+
+.formulario__inner {
+  text-align: left;
+  padding: 3vh 15vw 3vh 15vw;
+}
+
+.formulario__inner h3 {
+  font-size: 2.8em;
+}
+
+.formulario__inner p {
+  padding: 1rem 8vw 1rem 0;
+}
+
 /* Footer */
 
 
