@@ -45,10 +45,10 @@ p {
 /* Button */
 
 .button_di-buffala {
-  background-color: #325DFF;
+  background-color: #FFF;
   border-radius: 30px;
   padding: 2rem 6rem;
-  color: #fff;
+  color: #325DFF;
   text-transform: uppercase;
   text-decoration: none;
 }
