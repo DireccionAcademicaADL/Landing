@@ -63,6 +63,7 @@ p {
 .navbar_di-buffala {
   background-color: #325DFF;
   color: hsla(0, 100%, 100%, 0.52);
+  border-radius: 0;
 }
 .icon-bar {
   background-color: #fff;
@@ -386,4 +387,8 @@ p {
 .footer_di-buffala small {
   color: #fff;
   font-size: 1em;
+}
+
+main{
+  margin: 20px;
 }
