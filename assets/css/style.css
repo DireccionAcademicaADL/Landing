@@ -11,11 +11,11 @@ p, li, a, small {
 /* Font hierarchy */
 
 h1 {
- font-size: 3em;
+  font-size: 3em;
 }
 
 h2 {
- font-size: 2.25em;
+  font-size: 2.25em;
 }
 
 h3 {
@@ -61,7 +61,7 @@ p {
 /* Navbar */
 
 .navbar_di-buffala {
-  background-color: #325DFF;
+  background-color: black;
   color: hsla(0, 100%, 100%, 0.52);
 }
 .icon-bar {
