@@ -1,0 +1,1 @@
+githubPages: https://darikharian.github.io/Landing-ADL/

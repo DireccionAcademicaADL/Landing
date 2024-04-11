@@ -26,6 +26,19 @@ p {
   color: hsla(0, 0%, 0%, 0.8);
 }
 
+.features > p, .portfolio > p {
+  color: #fff;
+}
+
+.features__inner {
+  background: #fff;
+  border-radius: 20px !important;
+}
+
+.portfolio > .row {
+  background: #fff;;
+}
+
 @media only screen and (max-width : 767px) {
 
   h1 {
