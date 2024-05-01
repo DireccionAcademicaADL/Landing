@@ -54,8 +54,9 @@ p {
 }
 
 .button_di-buffala:hover {
-  background-color: hsla(227, 100%, 60%, .1);
+  background-color: #ffffff;
   color: #325DFF;
+  border-color: #325DFF;
 }
 
 /* Navbar */
@@ -123,6 +124,13 @@ p {
 
   .header_di-buffala p {
     padding: 1rem 4rem;
+  }
+}
+
+@media only screen and (max-width : 1400px) {
+
+  .navbar {
+    border-radius: 0px !important;
   }
 
 }
