@@ -375,7 +375,11 @@ p {
 }
 
 /* Footer */
+footer p{
+font-size: 3em;
+color:#fff
 
+}
 
 .footer_di-buffala {
   background-color: #325DFF;
