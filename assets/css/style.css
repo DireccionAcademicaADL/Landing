@@ -12,6 +12,8 @@ p, li, a, small {
 
 h1 {
  font-size: 3em;
+ text-shadow: .1rem .1rem .1rem black;
+ font-weight: bolder;
 }
 
 h2 {
@@ -51,6 +53,14 @@ p {
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.button_di-buffala:first-of-type:hover {
+  background-color: rgb(255, 255, 255);
+  color: #325DFF;
+  transition: all ease-in-out .3s;
+  transform: translateY(-2px);
+  box-shadow: .1rem .1rem 1rem .1rem #325effa2;
 }
 
 .button_di-buffala:hover {
