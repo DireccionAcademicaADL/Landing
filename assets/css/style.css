@@ -89,9 +89,7 @@ p {
 /* Header */
 
 .header_di-buffala {
-  background-image: url("../img/bg-header.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #000;
   text-align: center;
   height: 700px;
   padding-top: 150px;
@@ -107,6 +105,10 @@ p {
   color: hsla(0, 0%, 100%, .8);
   line-height: 22px;
   padding: 1rem 30vw;
+}
+
+header img {
+  width: 15vw;
 }
 
 @media only screen and (max-width : 767px) {
