@@ -46,16 +46,18 @@ p {
 
 .button_di-buffala {
   background-color: #325DFF;
-  border-radius: 30px;
-  padding: 2rem 6rem;
+  border-radius: 5px;
+  padding: 1.5rem 6rem;
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .button_di-buffala:hover {
   background-color: hsla(227, 100%, 60%, .1);
-  color: #325DFF;
+  color: #081337;
+  font-weight: bold;
 }
 
 /* Navbar */
