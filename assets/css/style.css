@@ -186,6 +186,12 @@ p {
   border-radius: 3px;
   padding: 5rem 0rem;
   margin: 3rem 1rem;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+
+.features__inner:hover {
+  box-shadow: 10px 15px 20px 1px #000;
 }
 
 .features__inner h3 {
