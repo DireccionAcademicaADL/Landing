@@ -387,3 +387,19 @@ p {
   color: #fff;
   font-size: 1em;
 }
+
+.container__footer {
+  color:#fff;
+}
+
+.contact__to__footer{
+  font-size: 25px;
+}
+
+.rrss__footer {
+  font-size: 35px; 
+}
+
+.icon__footer{
+  color: #fff;
+}
