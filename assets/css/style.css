@@ -80,6 +80,7 @@ p {
 .nav > li > a:hover {
   background-color: initial;
   color: hsla(0, 0%, 100%, .5);
+  font-style: italic;
 }
 
 .navbar {
