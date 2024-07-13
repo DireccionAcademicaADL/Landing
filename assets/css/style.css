@@ -6,6 +6,7 @@ h1, h2, h3 {
 
 p, li, a, small {
   font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
 }
 
 /* Font hierarchy */
