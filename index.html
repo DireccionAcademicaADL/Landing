@@ -34,10 +34,10 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right navbar__navigation">
-          <li><a href="#">Trabajo</a></li>
-          <li><a href="#">Características</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li><a href="#trabajos">Nuestros Trabajos</a></li>
+          <li><a href="#caracteristicas">Características</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contacto">Contáctenos</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
 
@@ -52,7 +52,7 @@
   </header>
 
   <!-- Blog -->
-  <section class="container-fluid blog">
+  <section id="blog"  class="container-fluid blog">
     <div class="row">
       <div class="blog__inner col-md-6">
         <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h3>
@@ -64,7 +64,7 @@
   </section>
 
   <!-- Features -->
-  <section class="container-fluid features">
+  <section id="caracteristicas" class="container-fluid features">
     <h1>Hola que tal </h1>
     <h2>Lorem ipsum dolor sit</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique ullamcorper luctus. Nunc varius ullamcorper felis. Nulla nibh ipsum, rutrum.</p>
@@ -136,7 +136,7 @@
   </section>
 
   <!-- Portfolio section -->
-  <section class="container-fluid portfolio">
+  <section id="trabajos" class="container-fluid portfolio">
     <h2>Trabajos Destacados</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique ullamcorper luctus. Nunc varius ullamcorper felis. Nulla nibh ipsum, rutrum.</p>
     <hr>
@@ -163,8 +163,50 @@
       <div class="portfolio__inner portfolio__inner__image-bottom col-md-6"></div>
       </div>
   </section>
-<!-- hola -->
-  <!-- Footer -->
+<!-- contacto -->
+
+<section id="contacto" class="container my-5">
+  <h2 class="display-4 fw-bold my-4 text-center">Contáctame</h2>
+
+  <p class="my-4 d-none d-md-block text-center">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+    sapiente, autem delectus totam expedita animi corporis dolorem qui
+    magnam, aspernatur officiis quasi culpa tempora est commodi. Voluptate
+    beatae tempora quaerat?
+  </p>
+
+  <form>
+    <div class="mb-3">
+      <label class="form-label">Nombre</label>
+      <input type="text" class="form-control" placeholder="Nombre" />
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Correo electrónico</label>
+      <input
+        type="email"
+        class="form-control"
+        placeholder="Correo electrónico"
+      />
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Mensaje</label>
+      <textarea
+        class="form-control " rows="3"
+        placeholder="Escribe aquí tu mensaje"
+      ></textarea>
+    </div>
+
+    <div class="my-3 text-end">
+      <button class="btn btn-primary">Enviar</button>
+    </div>
+  </form>
+</section>
+
+
+
+<!-- Footer -->
   <footer class="footer_di-buffala">
     <small>DiBufalla 2018. Todos los derechos reservados.</small>
   </footer>
