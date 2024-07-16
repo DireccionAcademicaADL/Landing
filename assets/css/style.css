@@ -5,7 +5,7 @@ h1, h2, h3 {
 }
 
 p, li, a, small {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /* Font hierarchy */
@@ -89,7 +89,7 @@ p {
 /* Header */
 
 .header_di-buffala {
-  background-image: url("../img/bg-header.jpg");
+  background-image: url("../img/jason-wang-8J49mtYWu7E-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
