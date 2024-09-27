@@ -4,8 +4,8 @@ h1, h2, h3 {
   font-family: 'Lato', sans-serif;
 }
 
-p, li, a, small {
-  font-family: 'Poppins', sans-serif;
+p, li, a {
+  font-family: "Madimi One", sans-serif;;
 }
 
 /* Font hierarchy */
@@ -19,7 +19,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.75em;
+  font-size: 2em;
 }
 
 p {
@@ -45,7 +45,7 @@ p {
 /* Button */
 
 .button_di-buffala {
-  background-color: #325DFF;
+  background-color: #c71111;
   border-radius: 30px;
   padding: 2rem 6rem;
   color: #fff;
@@ -55,13 +55,13 @@ p {
 
 .button_di-buffala:hover {
   background-color: hsla(227, 100%, 60%, .1);
-  color: #325DFF;
+  color: #ff3932;
 }
 
 /* Navbar */
 
 .navbar_di-buffala {
-  background-color: #325DFF;
+  background-color: #000000;
   color: hsla(0, 100%, 100%, 0.52);
 }
 .icon-bar {
@@ -378,7 +378,7 @@ p {
 
 
 .footer_di-buffala {
-  background-color: #325DFF;
+  background-color: #000000;
   padding: 5vw 1rem;
   text-align: center;
 }
@@ -386,4 +386,5 @@ p {
 .footer_di-buffala small {
   color: #fff;
   font-size: 1em;
+  font-family: "Madimi One", sans-serif;
 }
