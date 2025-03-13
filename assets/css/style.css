@@ -42,10 +42,12 @@ p {
 
 }
 
+/* -- Este es un cambio simple realizado por José Muñoz se cambio el color #325DFF por el color #320779 -->
 /* Button */
 
+
 .button_di-buffala {
-  background-color: #325DFF;
+  background-color: #320779;
   border-radius: 30px;
   padding: 2rem 6rem;
   color: #fff;
