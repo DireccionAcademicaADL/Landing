@@ -48,21 +48,21 @@ p {
   background-color: #325DFF;
   border-radius: 30px;
   padding: 2rem 6rem;
-  color: #fff;
+  color: #b68b8b;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .button_di-buffala:hover {
   background-color: hsla(227, 100%, 60%, .1);
-  color: #325DFF;
+  color: blue;
 }
 
 /* Navbar */
 
 .navbar_di-buffala {
   background-color: #325DFF;
-  color: hsla(0, 100%, 100%, 0.52);
+  color: hsla(0, 14%, 57%, 0.52);
 }
 .icon-bar {
   background-color: #fff;
@@ -260,7 +260,7 @@ p {
 
 .video__inner p {
   padding: 0 20vw;
-  color: #fff;
+  color: #b68b8b;
 }
 
 @media only screen and (max-width : 767px) {
