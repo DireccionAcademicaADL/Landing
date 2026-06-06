@@ -300,10 +300,6 @@ p {
   padding: 1rem 24vw;
 }
 
-/* .portfolio > hr {
-  visibility: hidden;
-} */
-
 .portfolio__inner {
   text-align: left;
   height: 500px;
@@ -349,7 +345,6 @@ p {
   }
 
   .portfolio hr {
-    /* visibility: visible; */
     margin-top: 0;
     margin-bottom: 0;
     width: 100px;
