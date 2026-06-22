@@ -12,6 +12,7 @@ p, li, a, small {
 
 h1 {
  font-size: 3em;
+
 }
 
 h2 {
@@ -61,7 +62,7 @@ p {
 /* Navbar */
 
 .navbar_di-buffala {
-  background-color: #325DFF;
+  background-color:  #6f42c1;
   color: hsla(0, 100%, 100%, 0.52);
 }
 .icon-bar {
