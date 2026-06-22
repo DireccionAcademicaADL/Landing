@@ -245,13 +245,17 @@ p {
 .video {
   position: relative;
   text-align: center;
-  padding-left: 40px;
+  min-height: 360px;
+  padding: 6rem 2rem;
+  background-color: #262626;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .video__inner {
-  position: absolute;
-  top: 60%;
   color: #fff;
+  max-width: 900px;
 }
 
 .video__inner h2 {
@@ -259,19 +263,23 @@ p {
 }
 
 .video__inner p {
-  padding: 0 20vw;
+  padding: 0 8vw;
   color: #fff;
+}
+
+.video__link {
+  margin-top: 1rem;
 }
 
 @media only screen and (max-width : 767px) {
 
   .video {
-    padding-left: 0;
+    min-height: 320px;
+    padding: 4rem 1.5rem;
   }
 
   .video__inner {
-    height: 50px;
-    top: 8%;
+    width: 100%;
   }
 
   .video__inner h2 {
@@ -279,7 +287,7 @@ p {
   }
 
   .video__inner p {
-    visibility: hidden;
+    padding: 0;
   }
 
 }
