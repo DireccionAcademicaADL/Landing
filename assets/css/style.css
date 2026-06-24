@@ -387,3 +387,17 @@ p {
   color: #fff;
   font-size: 1em;
 }
+/* 1. Mejora en la interacción de Características */
+.features__inner {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.features__inner:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* 2. Mejora en la interacción del Menú */
+.navbar-nav > li > a {
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
