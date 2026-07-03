@@ -387,3 +387,14 @@ p {
   color: #fff;
   font-size: 1em;
 }
+
+/* Cambio técnico simple: color de fondo del bloque Features */
+.features {
+  background-color: #f4efe8;
+}
+
+.features h1,
+.features h2,
+.features p {
+  color: #333333;
+}
