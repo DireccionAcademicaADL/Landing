@@ -1,5 +1,7 @@
 /* Global Styles */
 
+
+
 h1, h2, h3 {
   font-family: 'Lato', sans-serif;
 }
@@ -61,7 +63,9 @@ p {
 /* Navbar */
 
 .navbar_di-buffala {
-  background-color: #325DFF;
+  background: #28a745; 
+  color: #000;
+
   color: hsla(0, 100%, 100%, 0.52);
 }
 .icon-bar {
